@@ -144,8 +144,6 @@ public class Apartment {
 }
 ```
 
-
-
 ```java
 public class Owner {
 
@@ -160,6 +158,14 @@ public class Owner {
     private int qtyDaysAsOwner;
 }
 ```
+
+## UML
+
+- [UML mermaid](https://github.com/AlbertProfe/ApartmentPredictor/blob/master/docs/appends/ApartmentPredictor-uml_v1.md)
+  
+  
+
+![](https://raw.githubusercontent.com/AlbertProfe/ApartmentPredictor/refs/heads/master/docs/diagrams/ApartmentPredictor-uml_v1.png)
 
 ## pom.xml
 
