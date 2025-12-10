@@ -3,6 +3,7 @@ package com.example.apartment_predictor.model;
 import jakarta.persistence.Entity;
 import jakarta.persistence.Id;
 
+import java.util.List;
 import java.util.UUID;
 
 @Entity
@@ -24,8 +25,12 @@ public class Apartment {
     private String prefarea;
     private String furnishingstatus;
 
+    //private List<Review> reviews;
+
     // Default constructor
-    public Apartment() {}
+    public Apartment() {
+        this.id = UUID.randomUUID().toString();
+    }
 
     // Constructor with all fields
     public Apartment(Long price, Integer area, Integer bedrooms, Integer bathrooms, 
@@ -163,10 +168,19 @@ public class Apartment {
         this.id = id;
     }*/
 
+   /* public List<Review> getReviews() {
+        return reviews;
+    }
+
+    public void setReviews(List<Review> reviews) {
+        this.reviews = reviews;
+    }*/
+
     @Override
     public String toString() {
         return "Apartment{" +
-                "price=" + price +
+                "id=" + id +
+                ", price=" + price +
                 ", area=" + area +
                 ", bedrooms=" + bedrooms +
                 ", bathrooms=" + bathrooms +
