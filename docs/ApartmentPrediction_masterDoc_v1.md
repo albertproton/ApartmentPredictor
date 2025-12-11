@@ -411,6 +411,7 @@ This is an **umbrella project which contains many subprojects** that are speci
 ### Relationships
 
 - [JPA Relationships Guide](https://github.com/AlbertProfe/ApartmentPredictor/blob/master/docs/appends/JPA_Relationships_Guide.md)
+- [JPA Relationships Implementation Rule](https://github.com/AlbertProfe/ApartmentPredictor/blob/master/docs/appends/JPA_RelationshipsImplementation_Rule.md)
 
 ## H2 & application.properties
 
